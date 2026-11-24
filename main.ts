@@ -1,6 +1,7 @@
 // The Postmortem That Made Us Laugh — entry program.
 // Writes one short account (two sentences, 164 characters) of an AI coding
 // agent misunderstanding its user and wrecking the code to /output/entry.txt.
+// Revision note: the story stays exactly as first written; only the notes around it changed.
 import { mkdir, writeFile } from "node:fs/promises";
 
 const ENTRY =
